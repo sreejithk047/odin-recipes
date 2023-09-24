@@ -1,16 +1,58 @@
-body{background:linear-gradient(to left,skyblue,white);}
 
-.btn{
-    background-color: red;
-    border-radius:10px;
-   
+
+
+.home p{
+    display:inline-block;
+    vertical-align: middle; /* Adjust the value as needed to move the text up */
+    margin-top: -31px;
+    font-size:17px;
 }
 
-.btn a {
+.home a{
     text-decoration:none;
-    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(2, 2, 109);
+
 }
 
-.btn:hover{
-    background-color:#f26666;
+.home a:hover{
+    color:blue;
+}
+
+.pic img{
+    height:200px;
+    width:250px;
+    margin:0 170px;
+    
+}
+
+
+
+.txt a{
+    display:inline;
+    margin:0 180px;
+    
+    
+}
+
+
+
+.lis{
+    font-family:sans-serif;
+    color:rgb(255, 10, 243);
+}
+
+.hr1{
+    margin-bottom:50px;
+
+}
+
+.hr2{
+    margin:50px 0;
+}
+
+.quote{
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+    padding-left:550px;
 }
